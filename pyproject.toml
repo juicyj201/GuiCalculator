@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "calculator"
+version = "0.0.1"
+authors = [
+  { name="Joshua Julies", email="joshuajulies06@gmail.com" },
+]
+description = "A calculator gui project, making use of a gui."
+readme = "readme.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/juicyj201/GuiCalculator"
+"Bug Tracker" = "https://github.com/juicyj201/GuiCalculator/issues"
